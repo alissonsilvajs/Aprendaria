@@ -6,14 +6,14 @@
 # Topicos
 - [Baixe o python](https://www.python.org/)
 - [Apresentação](#apresentação)
-- [Comandos Basicos](#comandos-basicos)
+- [Basico do python](#basico)
 
 ## Apresentação
 ###### Olá Meu nome é Gustavo Lins e eu sou...
 ###### um programador Back-End com foco em python.
 ###### caso queira saber um pouco sobre mim olhe meu [Github](https://github.com/freazesss)
 
-# Comandos Basicos
+# Basico
 ## Print
 ###### O comando "print" é utilizado para exibir algo no terminal como o proprio nome diz "Imprima".
 ###### Vamos ver como ele funciona?
