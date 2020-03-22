@@ -4,4 +4,4 @@
 > Aprenda linguagens de programação de um jeito facil.
 
 ### Topicos disponiveis:
-- [Python]()
+- [Python](https://github.com/coffeebr/Aprendaria/tree/master/python)
