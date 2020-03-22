@@ -15,7 +15,7 @@
 
 # Basico
 ## Print
-###### O comando "print" é utilizado para exibir algo no terminal como o proprio nome diz "Imprima".
+###### A função "print" é utilizado para exibir algo no terminal como o proprio nome diz "Imprima".
 ###### Vamos ver como ele funciona?
 ```python
 print("Ola Mundo!")
