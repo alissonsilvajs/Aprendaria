@@ -7,7 +7,11 @@
 - [Baixe o python](https://www.python.org/)
 - [Apresentação](#apresentação)
 - [Print](#print)
+- [Input](#input)
 - [Comentarios](#comentarios)
+- [Variaveis](#variaveis)
+- [Sua calculadora gratis](#Sua-calculadora-gratis)
+- [Tipos de dados](#tipos-de-dados)
 ## Apresentação
 ###### Olá Meu nome é Gustavo Lins e eu sou...
 ###### um programador Back-End com foco em python.
