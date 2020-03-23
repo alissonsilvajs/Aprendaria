@@ -45,3 +45,30 @@ print(3+4)
 # Ira exibir 4 no terminal.
 print(4)
 ```
+## Tipos de dados
+###### Tipos de dados é uma forma de classificar as informação. Exemplo:
+1. str = letras.
+2. int = numeros.
+3. float = numeros flutuantes. tipo 3.5
+4. booleano = True ou False
+##### Como podemos ver os tipos de dados numa variavel??
+###### Vamos ver
+```python
+var = "Ola"
+print(type(var))
+
+<class 'str'>
+```
+## Variaveis
+###### Variaveis se refere a um valor. um comando de atribuição.
+###### Podemos atribuir as variaveis alguns tipos de dados.
+```python
+name = "Gustavo"
+print(f"Ola {name}!")
+
+Ou
+print("Ola {}!".format(name))
+```
+
+###### Caso você encontrou algum erro de digitação ou tem alguma duvida
+###### Fale com nos no [Nosso discord](https://discord.gg/GDBrNDU)
