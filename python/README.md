@@ -6,8 +6,8 @@
 # Topicos
 - [Baixe o python](https://www.python.org/)
 - [Apresentação](#apresentação)
-- [Basico do python](#basico)
-
+- [Print](#print)
+- [Comentarios](#comentarios)
 ## Apresentação
 ###### Olá Meu nome é Gustavo Lins e eu sou...
 ###### um programador Back-End com foco em python.
@@ -32,6 +32,13 @@ print("Ola Mundo!")
 ###### A Saida sera somente o "Ola Mundo".
 ###### Os Comentarios são linhas que não são executadas. e sim para lermos dentro do codigo fonte.
 ###### E Um codigo bom é sempre comentado.
+## Input
+##### A função "input" é utilizada para perguntar algo no terminal.
+##### Vamos ver como podemos utilizar?
+```py
+name = input("Qual seu nome? ")
+print(f"Ola {name}")
+```
 ## Sua calculadora gratis
 ###### Aprendemos como exibir letras agora bora para os numeros.
 ###### Iremos utilizar o comando print para exibir os calculos no terminal.
