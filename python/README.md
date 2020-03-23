@@ -26,6 +26,13 @@ print("Ola Mundo!")
 ```
 ###### A Saida do nosso programa ira ser "Ola Mundo!".
 ###### Tudo no print fica dentro dos ( ). so utilizamos aspas quando são letras.
+## Input
+##### A função "input" é utilizada para perguntar algo no terminal.
+##### Vamos ver como podemos utilizar?
+```py
+name = input("Qual seu nome? ")
+print(f"Ola {name}")
+```
 ## Comentarios
 ##### Os Comentarios são utilizados para descrever seu codigo.
 ##### Vamos ver como funciona?
@@ -36,12 +43,15 @@ print("Ola Mundo!")
 ###### A Saida sera somente o "Ola Mundo".
 ###### Os Comentarios são linhas que não são executadas. e sim para lermos dentro do codigo fonte.
 ###### E Um codigo bom é sempre comentado.
-## Input
-##### A função "input" é utilizada para perguntar algo no terminal.
-##### Vamos ver como podemos utilizar?
-```py
-name = input("Qual seu nome? ")
-print(f"Ola {name}")
+## Variaveis
+###### Variaveis se refere a um valor. um comando de atribuição.
+###### Podemos atribuir as variaveis alguns tipos de dados.
+```python
+name = "Gustavo"
+print(f"Ola {name}!")
+
+Ou
+print("Ola {}!".format(name))
 ```
 ## Sua calculadora gratis
 ###### Aprendemos como exibir letras agora bora para os numeros.
@@ -69,16 +79,6 @@ var = "Ola"
 print(type(var))
 
 <class 'str'>
-```
-## Variaveis
-###### Variaveis se refere a um valor. um comando de atribuição.
-###### Podemos atribuir as variaveis alguns tipos de dados.
-```python
-name = "Gustavo"
-print(f"Ola {name}!")
-
-Ou
-print("Ola {}!".format(name))
 ```
 
 ###### Caso você encontrou algum erro de digitação ou tem alguma duvida
