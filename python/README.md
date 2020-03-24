@@ -80,6 +80,17 @@ print(type(var))
 
 <class 'str'>
 ```
+## Condições
+###### Estrutura de Condição, como o próprio nome já diz, verifica a condição dos argumentos passados e, executa um comando caso a condição seja verdadeira.
+###### Vamos ver como funciona
+```py
+name = input("Qual seu nome")
+
+if name == "Gustavo": # Se nome for igual a Gustavo
+  print("God of gods") # Escreva Deus dos deuses
+else: # se não
+  print(f"O que é um {name}?") # Escreva oque é um Ricardo?
+```
 
 ###### Caso você encontrou algum erro de digitação ou tem alguma duvida
 ###### Fale com nos no [Nosso discord](https://discord.gg/GDBrNDU)
