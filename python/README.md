@@ -12,6 +12,7 @@
 - [Variaveis](#variaveis)
 - [Sua calculadora gratis](#Sua-calculadora-gratis)
 - [Tipos de dados](#tipos-de-dados)
+- [Condições](#condições)
 ## Apresentação
 ###### Olá Meu nome é Gustavo Lins e eu sou...
 ###### um programador Back-End com foco em python.
