@@ -89,6 +89,8 @@ name = input("Qual seu nome")
 
 if name == "Gustavo": # Se nome for igual a Gustavo
   print("God of gods") # Escreva Deus dos deuses
+elif name == "Ricardo":
+  print("Putinha")
 else: # se não
   print(f"O que é um {name}?") # Escreva oque é um Ricardo?
 ```
