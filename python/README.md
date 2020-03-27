@@ -95,5 +95,29 @@ else: # se não
   print(f"O que é um {name}?") # Escreva oque é um Ricardo?
 ```
 
+###### Infelizmente o Python ele não possui a estrutura condicional Switch/Case. Mas existem soluções que podem substituir o Switch/Case sem a utilização de vários IFs e ELSEs
+
+###### Exemplificação
+```
+def mes(m):
+  meses = {
+    1: 'Janeiro',
+    2: 'Fevereiro',
+    3: 'Março',
+    4: 'Abril',
+    5: 'Maio',
+    6: 'Junho'
+    7: 'Julho'
+    8: 'Agosto'
+    9: 'Setembro'
+    10: 'Outubro'
+    11: 'Novembro'
+    12: 'Dezembro'
+  }
+  return meses.get(m,"Erro"")
+```
+
+`>>> mes(10)`: Se chamarmos a função iremos obter o resultado -> `'Outubro'`
+
 ###### Caso você encontrou algum erro de digitação ou tem alguma duvida
 ###### Fale com nos no [Nosso discord](https://discord.gg/GDBrNDU)
