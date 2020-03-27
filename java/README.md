@@ -122,7 +122,7 @@ do que estiver entre os parênteses.
 
 System.out.printf();
 /*
-não irei explicar a fundo exxe print agora , mas você ja sabe
+não irei explicar a fundo esse print agora , mas você ja sabe
 que existe.
 */
 ```
