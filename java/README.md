@@ -10,6 +10,7 @@
 - [Alguns entendimentos básicos](#entendimentos-básicos)
 - [Estruta do Código](#estrutura-do-código)
 - [Hello World](#hello-world)
+- [Variáveis](#variáveis)
 
 ## Apresentação
 ###### Olá meu nome é Carlos Alessandro,
@@ -129,4 +130,86 @@ que existe.
 ######  https://docs.oracle.com/javase/7/docs/api/java/lang/System.html
 
 ## Variáveis
+###### Para começar essa parte precisamos entender algo.
+```txt
+O java é uma linguagem fortemente tipada.
+Isso significa que tudo na linguagem deve ser declarado,
+toda variável ou função sempre terá um tipo e esse tipo não
+poderá ser alterado.
+``` 
+#### Mas afinal o que é uma variável?
+```txt
+Uma variável é nada mais nada menos que um espaço na memória
+que pode armazenar dados.
+```
+#### Declarando uma variável
+###### Declarar uma variável em Java é muito simples, vamos ver!
+```txt
+A estrutura padrão de uma variável em Java sempre vai ser.
+  tipoDaVariavel nomeDaVariavel = valorAtribuido;
+```
+###### Vamos ver isso na prática logo abaixo.
+```java
+package nomePackage;
+public class nomeClasse {
+  public static void main(String[] args) {
+    int var1 = 10;
+    /*
+      aqui declaramos uma variavel do tipo inteiro.
+      Isso significa que ela só pode receber valores inteiros,
+    */
+    System.out.println(var1);
+    /*
+      assim podemos mostrar no console o valor da nossa variavel
+    */
+  }
+}
+```
+###### Uma pequena observação abaixo.
+```txt
+Repare que no Código acima ao imprimirmos nossa variavel não
+usamos as aspas duplas.
+Isso acontece por 2 motivos.
+1ºEstamos imprimindo uma váriavel, logo não é necessário.
+2ºAs aspas duplas são pra se referir as Strings(entenda abaixo).
+```
+#### Tipos de Variáveis
+###### Para podermos entender melhor, vamos ao código.
+```java
+package nomePackage;
+public class nomeClasse {
+  public static void main(String[] args) {
+    //Declarando Variaveis
+      boolean verdadeiro = true;
+      boolean falso = false;
+      int var1 = 1;
+      double var2 = 60.55;
+      char charvar = 'c';
+      String frase = "Isso é uma frase";
+      String nomeVariavel = "valorVariavel";
+
+    //Imprimindo o valor das variaveis
+      System.out.println("boolean verdadeiro = " + verdadeiro);
+      //opa temos algo novo aqui... jaja falaremos sobre isso.
+      System.out.println("boolean falso = " + falso);
+      System.out.println("int var1 = " + var1);
+      System.out.println("double var2 = " + var2);
+      System.out.println("char character = " + charvar);
+      System.out.println("String frase = " + frase);
+    //voce tambem pode imprimir só o valor dessa forma.
+      System.out.println(nomeVariavel);
+  }
+}
+```
+```txt
+boolean -> recebe apenas valor true ou false.
+int -> recebe apenas números inteiros.
+double -> recebe números com casas decimais.
+char -> recebe uma letra ou número sempre entre aspas simples.
+String -> recebe uma frase ou letra entre aspas dupla.
+```
+###### Obs.: Esses não são todos os tipos de variáveis, mas acredito que são as que você mais irá utilizar.
+## Concatenação
+###### Coming Soon...
+## Operações matemáticas
 ###### Coming Soon...
