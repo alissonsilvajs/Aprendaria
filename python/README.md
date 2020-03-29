@@ -98,7 +98,7 @@ else: # se não
 ###### Infelizmente o Python ele não possui a estrutura condicional Switch/Case. Mas existem soluções que podem substituir o Switch/Case sem a utilização de vários IFs e ELSEs
 
 ###### Exemplificação
-```
+```py
 def mes(m):
   meses = {
     1: 'Janeiro',
